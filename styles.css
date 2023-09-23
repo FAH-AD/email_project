@@ -1,0 +1,165 @@
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-family: "Lato", sans-serif;
+  max-width: 600px;
+  margin: 0 auto; /* Center the content horizontally */
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+.topBar {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+.sideImage {
+  width: 133px;
+  height: 31px;
+}
+.topBar > img:nth-of-type(2) {
+  height: 9px;
+  width: 9px;
+  margin-top: 1.6%;
+}
+.image-grid {
+  justify-content: center;
+  display: flex;
+}
+.image-grid > img {
+  width: 100%;
+  height: 359px;
+}
+
+/* this portion handles the styles of date portion */
+
+.date-portion {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  text-align: center;
+  color: #262626;
+}
+.upper-text {
+  font-size: 1.5rem;
+  font-weight: light;
+  word-spacing: 6px;
+}
+.lower-text {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* this portion handles the styles of brief portion */
+
+.breif-portion {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 1rem 4rem;
+}
+.breif {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.breif-text {
+  font-size: 1rem;
+  color: #262626;
+  line-height: 2rem;
+}
+.breif-text > span > {
+  padding-top: 2rem;
+}
+
+.site-link {
+  color: #e4542e;
+  font-size: 1.2rem;
+  text-decoration: underline;
+}
+.logo > img {
+  width: 133px;
+  height: 31px;
+}
+
+/* this portion handles the styles of dark-portion */
+
+.dark-portion {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-bottom: 5rem;
+
+  color: #ffffff;
+  background-color: #262626;
+}
+.grid-view {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem 2rem 0rem 4rem;
+}
+.date-text > span {
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+.donor-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.right > img {
+  width: 289px;
+  height: 184px;
+}
+.dark-text {
+  font-size: 1rem;
+  padding: 0rem 4rem;
+  line-height: 2rem;
+}
+.dark-button {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8%;
+}
+.btn {
+  background-color: #e4542e;
+
+  padding: 1.2rem 2.5rem;
+  border-radius: 50px;
+  border: none;
+  font-size: 1rem;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #cd421c;
+}
+
+/* this portion contains the styles of last-portion */
+.last-portion {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 3rem 4rem;
+  padding-bottom: 0rem;
+}
+
+.text {
+  font-size: 1rem;
+  color: #262626;
+  line-height: 2rem;
+}
